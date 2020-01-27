@@ -1,18 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-size: 16px;
     font-family: 'Karla', sans-serif;
-    height: 100vh;
     
-    margin-left:20%;
-    margin-right: 20%;
-    margin-top: 6%;
-    padding: 0%;
+    
+  
     background-color: #eeeeee;
 }
 
 .section1{
     background-color:snow;
-    height: 230px;
+    height: 40vh;
 
 
 }
@@ -28,7 +29,7 @@ h1{
     background-color: hsl(179, 62%, 43%);
     float: left;
     width: 50%;
-    height: 300px;
+    height: 60vh;
 
 
 }
@@ -36,7 +37,7 @@ h1{
     background-color: rgba(27, 183, 189, 0.616);
     float: right;
     width: 50%;
-    height: 300px;
+    height: 60vh;
 
 }
 #second{
@@ -71,11 +72,16 @@ p{
     color:hsla(203, 44%, 93%, 0.719);
 }
 span{
-    font-size: 40px;
-    color: snow;
+    font-size: 35px;
+    color: white;
+    vertical-align: middle;
 
 }
 h1{
     margin-left: 50px;
     padding-top: 40px;
+}
+
+@media screen(min-width:375px){
+
 }
